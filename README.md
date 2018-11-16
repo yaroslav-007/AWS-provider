@@ -5,7 +5,7 @@ Simple terraform code for creating ubuntu instance in AWS
 
 - Install **Terraform**
     - Download and install accordingly to your OS as described here : https://www.terraform.io/downloads.html
-- Create github organization and generate token. You will have to populate them on the last step.
+
 
 ## How to run the code
 1. Open Command Line Interpreter: 
@@ -24,5 +24,6 @@ Simple terraform code for creating ubuntu instance in AWS
 Populate access key and secret key  **main.tf**
 ```
     terraform init
+    terraform plan
     terraform apply
 ```
